@@ -15,15 +15,20 @@ namespace TacoHub.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application's  description page.";
+            ViewBag.Message = "Your Tacos.Delivered";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult Menu()
+        {
+            ViewBag.Message = "Menu";
             return View();
         }
     }
